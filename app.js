@@ -9,7 +9,7 @@ var lessTen = 10 * lessTenPrice;
 var lessTwenty = 10 * lessTwentyPrice;
 var day = prompt("Enter Your Day : ");
 
-if (day <= 10) {
+if (day <= 10 && day > 0) {
   document.write(day * lessTenPrice);
 }
 else if (day <= 20 && day > 10) {
